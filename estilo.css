@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body, html{
+	width: 100%;
+	height: 100%;
+}
+
+.cabecalho{
+	background-color: green;
+	height: 7%;
+	width: 100%;
+	position: relative;
+}
+
+.cabecalho img{
+	float: left;
+}
+
+.cabecalho ul{
+	float: left;
+	margin-left: 75%;
+	list-style-type: none;
+}
+
+.cabecalho ul li{
+	display: inline;
+}
+
+main{
+	overflow: hidden;
+}
+
+.criarConta{
+	border-color:orange;
+	background-color: orange;
+}
