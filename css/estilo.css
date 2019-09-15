@@ -18,6 +18,7 @@ body{
 	margin-left: 5%;
 	padding-top: 10px;
 	padding-left: 15px;
+	padding-bottom: 25px;
 	background-color: white;
 	width: 90%;
 	height: 100%;
@@ -89,9 +90,46 @@ body{
 	margin-left: 21%;
 }
 
+#mapa{
+	float: left;
+	margin-left: 2.1%;
+    max-width:600px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+    margin-top: 18px;
+}
+
+
 hr{
 	float: left;
+	position: relative;
+	margin-top: 1.5%;
+	width: 98.5%;
 }
+
+.play-store{
+	float: left;
+	margin-left: 9.9%;
+    max-width:600px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+}
+
+.app-store{
+	float: left;
+	margin-left: 11%;
+    max-width:330px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+/*#botao-mapa{
+	position: absolute;
+	float: left;
+}*/
 
 .cabecalho{
 	background-color: #0984e3;
@@ -139,25 +177,38 @@ main{
 	overflow: hidden;
 }
 
-/*
-.criarConta{
-	border-color:orange;
-	background-color: orange;
+.rodape{
+	height: 20%;
+	background-color: #0984e3;
+	margin-top: 30px;
+
 }
 
-input[type=text]{   
-    box-shadow: 1px 1px 2px #333333;    
-    background: #cccccc; 
-    border:1px solid #000000;
-    width:50%;
-    margin-left: 20%;
+.rodape p{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
 }
- 
-input[type=text]:hover, textarea:hover{ 
-         background: #ffffff; border:1px solid #990000;
+
+.icones-rodape{
+	margin-top: 20px;
+	margin-left: 40%;
 }
- 
-input[type=submit]{
-        background:#006699;
-        color:#ffffff;
-}*/
+
+.icone-subir{
+	margin-left: 33%;
+}
+
+.icone-subir a{
+	margin: 0;
+	padding: 0;
+}
+
+.rodape p a{
+	text-decoration: none;
+	color: white;
+}
+
+.rodape p a:hover{
+	color: #2d3436;
+}
