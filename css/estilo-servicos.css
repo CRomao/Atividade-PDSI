@@ -49,7 +49,7 @@ body{
 	text-decoration: none;
 }
 
-.cabecalho li a[href="#1"]{
+.cabecalho li a[href="#2"]{
 	background-color: #74b9ff
 }
 
@@ -71,64 +71,31 @@ body{
 	position: relative;
 }
 
-
-.nossa-historia h2{
+.servico-esquerda{
 	float: left;
-	position: relative;
+	margin-left: 200px;
+	width: 33%;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
-.nossa-historia hr{
+.servico-esquerda p, h2{
+	text-align: center;
+}
+
+.servico-direita p, h2{
+	text-align: center;
+}
+
+
+.servico-direita{
 	float: left;
-	position: relative;
-	width: 85%;
-	margin-top: 15px;
-	margin-left: 5px;
+	margin-left: 100px;
+	width: 33%;	
+	margin-bottom: 40px;
+	margin-top: 20px; 
 }
 
-
-.imagem-nossa-historia{
-	float: left;
-}
-
-.imagem-nossa-historia p img{
-	margin-right: 15px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-
-}
-
-.imagem-nossa-historia p{
-	text-align: justify;
-	margin-bottom: 10px;
-	margin-right: 20px;
-}
-
-
-.visao hr{
-	float: left;
-	position: relative;
-	width: 92.5%;
-	margin-top: 15px;
-	margin-left: 5px;
-}
-
-.visao h2{
-	float: left;
-	position: relative;
-}
-
-.missao hr{
-	float: left;
-	position: relative;
-	width: 91.5%;
-	margin-top: 15px;
-	margin-left: 5px;
-}
-
-.missao h2{
-	float: left;
-	position: relative;
-}
 
 .rodape{
 	float: left;
