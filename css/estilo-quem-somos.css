@@ -167,3 +167,7 @@ body{
 .rodape p a:hover{
 	color: #2d3436;
 }
+
+.imgQuemSomos{
+	float: left;
+}
