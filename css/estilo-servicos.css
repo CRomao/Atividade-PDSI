@@ -22,14 +22,14 @@ body{
 .cabecalho  p{
 	float: left;
 	margin-top: 2.5%;
-	margin-left: 3%;
+	margin-left: 1%;
 	color: #dfe6e9; 
 	position: relative;
 }
 
 .cabecalho ul{
 	float: left;
-	margin-left: 60%;
+	margin-left: 55%;
 	margin-top: 2.5%;
 	list-style-type: none;
 }
@@ -56,6 +56,15 @@ body{
 .cabecalho li a:hover{
 	background-color: #b2bec3;
 	color: #dfe6e9; 
+}
+
+
+.logomarca{
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+	padding-right: 0;
+	margin-right: 0;
 }
 
 .fundo{
